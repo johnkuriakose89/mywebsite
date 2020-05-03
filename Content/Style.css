@@ -1,0 +1,242 @@
+html,
+body {
+    /*height: 125%;*/
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+/*Cover*/
+#cover {
+    /*background: url('../img/blurry-HomePage.jpg') center center no-repeat;*/
+    background-size: cover;
+    height: 72%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#home {
+    /*background: url('../img/blurry-HomePage.jpg') center center no-repeat;*/
+    background-image: url('./img/blurry-HomePage.jpg');
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 52.12em;
+    position: relative;
+}
+
+
+#cover-caption {
+    width: 100%;
+}
+
+
+#summary {
+    height: 200px;
+    align-content: center;
+    margin-top: 13em;
+}
+
+#professional-section {
+    display: block;
+    margin-top: -147px;
+}
+
+
+/*Class */
+.imageTable {
+    background-image: url('./img/apple-1853306_1280.jpg');
+    filter: blur(2px);
+    height: 55em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: -16px;
+    position: relative;
+}
+
+.blur {
+    background-color: #3e4444;
+    filter: opacity(.9);
+}
+
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+}
+
+.section-content {
+    padding: 5rem;
+}
+
+
+
+
+.greenColor {
+    color: #00ff21;
+}
+
+
+.headerfontcolor {
+    color: white;
+}
+
+.navbar-toggleable-md.navbar-nav.nav-link.headerfontcolor {
+    margin-left: 80px;
+}
+
+.headerName {
+    color: white;
+    font: bold normal normal 65px/1.4em sans-serif;
+    /*font-size: 80px;
+    font-size: 1.4vw;*/
+    letter-spacing: 10px;
+    line-height: normal;
+    display: block;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.sum-subheader {
+    background-color: #3e4444;
+    height: 53px;
+}
+
+.dimmed {
+    position: absolute;
+    /*margin-left: 14em;*/
+    z-index: 1;
+    /*height: 10em;
+    width: 44em;*/
+}
+
+.progress-bar {
+    background-color: #00ff21;
+    
+    
+}
+
+.progress-transparent {
+    background-color: slategrey
+}
+.top1 {
+    margin-top: 1em;
+}
+
+
+.top2 {
+    margin-top: 2em;
+}
+
+.top3 {
+    margin-top: 3em;
+}
+
+
+
+.mainsummary {
+    position: absolute;
+    width: 576px;
+    height: 700px;
+    z-index: 15;
+    top: 99%;
+    left: 40%;
+    margin: -100px 0 0 -150px;
+    background-color: #3e4444;
+    display: flex;
+    justify-content: center;
+    /*float: left;*/
+    /*margin-left: 346px;*/
+    /*
+    /*margin-right: 150px;*/
+    /*top: 521px;
+    position: absolute;
+   
+   
+   */
+}
+
+paddingleft {
+padding-left:8em !important;       /*to check back later*/
+}
+/*Designs*/
+/*********************************************/
+.arc {
+    height: 38px;
+    width: 34px;
+    border: 0 solid #00ff21;
+    border-right-width: 3px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.biggerArc {
+    height: 134px;
+    width: 122px;
+    border: 0 solid #00ff21;
+    border-right-width: 7px;
+    border-radius: 58%;
+    position: relative;
+    font: bold normal normal 65px/1.4em sans-serif;
+    margin: 1em;
+    padding-top: 19px;
+}
+
+
+
+.arc > span {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY( -50%);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+}
+
+.center {
+    position: absolute;
+    margin: -16em 27.5em;
+    display: inline;
+    justify-content: center;
+    z-index: 1;
+}
+
+
+
+
+/*Responsive Media*/
+/**********************************************/
+
+@media only screen and (max-height: 650px) {
+
+    #home {
+        height: 35.15em;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .headerName {
+        font-size: 4em;
+    }
+
+    .subheader {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .headerName {
+        font-size: 2em;
+    }
+
+    .subheader {
+        font-size: 1em;
+    }
+}
